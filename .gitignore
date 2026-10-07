@@ -1,0 +1,27 @@
+# ---- Python ----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---- 调试/测试截图 ----
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# ---- CanMV K230 板端产物 ----
+*.kmodel
+*.bin
+*.elf
+*.log
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
